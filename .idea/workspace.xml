@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d4aae99c-c224-4bee-8051-f844a013006f" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1XzGehijnntfF08eulsiBtdygce" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="longestpalindrom" />
+      <recent name="recursion1.climbingstairs" />
+      <recent name="pascaltriangle" />
+      <recent name="swapnodesinpairs" />
+      <recent name="reversedstring" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.SolutionTest.testSolution (3)">
+    <configuration name="SolutionTest.testSolution (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sandboxy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="addtwonumbers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="addtwonumbers" />
+      <option name="MAIN_CLASS_NAME" value="addtwonumbers.SolutionTest" />
+      <option name="METHOD_NAME" value="testSolution" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SolutionTest.testSolution (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sandboxy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="longestsubstring.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="longestsubstring" />
+      <option name="MAIN_CLASS_NAME" value="longestsubstring.SolutionTest" />
+      <option name="METHOD_NAME" value="testSolution" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SolutionTest.testSolution (3)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sandboxy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="longestpalindrom.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="longestpalindrom" />
+      <option name="MAIN_CLASS_NAME" value="longestpalindrom.SolutionTest" />
+      <option name="METHOD_NAME" value="testSolution" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SolutionTest.testSolution" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sandboxy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="recursion1.climbingstairs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="recursion1.climbingstairs" />
+      <option name="MAIN_CLASS_NAME" value="recursion1.climbingstairs.SolutionTest" />
+      <option name="METHOD_NAME" value="testSolution" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSolution.testSolution" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sandboxy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="twosums.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="twosums" />
+      <option name="MAIN_CLASS_NAME" value="twosums.TestSolution" />
+      <option name="METHOD_NAME" value="testSolution" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SolutionTest.testSolution (3)" />
+        <item itemvalue="JUnit.SolutionTest.testSolution (2)" />
+        <item itemvalue="JUnit.SolutionTest.testSolution (1)" />
+        <item itemvalue="JUnit.TestSolution.testSolution" />
+        <item itemvalue="JUnit.SolutionTest.testSolution" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d4aae99c-c224-4bee-8051-f844a013006f" name="Default Changelist" comment="" />
+      <created>1582041606630</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582041606630</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="320" y="91" key="#Project_Structure" timestamp="1584708551603">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state x="320" y="91" key="#Project_Structure/0.23.1440.806@0.23.1440.806" timestamp="1584708551603" />
+    <state x="570" y="322" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1584708450409">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state x="570" y="322" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.23.1440.806@0.23.1440.806" timestamp="1584708450409" />
+    <state x="377" y="204" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1590702070294">
+      <screen x="0" y="23" width="1378" height="877" />
+    </state>
+    <state x="377" y="204" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1378.877@0.23.1378.877" timestamp="1590702070294" />
+    <state x="-1233" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1586527633653">
+      <screen x="-1920" y="23" width="1920" height="1057" />
+    </state>
+    <state x="-1233" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/-1920.23.1920.1057/0.23.1920.1057@-1920.23.1920.1057" timestamp="1586527633653" />
+    <state width="425" height="466" key="DebuggerActiveHint" timestamp="1586270773476">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state width="425" height="466" key="DebuggerActiveHint/0.23.1920.1057@0.23.1920.1057" timestamp="1586270773476" />
+    <state width="1336" height="229" key="GridCell.Tab.0.bottom" timestamp="1590702081175">
+      <screen x="0" y="23" width="1378" height="877" />
+    </state>
+    <state width="1878" height="289" key="GridCell.Tab.0.bottom/-1920.23.1920.1057/0.23.1920.1057@-1920.23.1920.1057" timestamp="1586531218107" />
+    <state width="1878" height="357" key="GridCell.Tab.0.bottom/-1920.23.1920.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1586504920061" />
+    <state width="1878" height="357" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1588948236606" />
+    <state width="1336" height="229" key="GridCell.Tab.0.bottom/0.23.1378.877@0.23.1378.877" timestamp="1590702081175" />
+    <state width="1398" height="207" key="GridCell.Tab.0.bottom/0.23.1440.806@0.23.1440.806" timestamp="1584861968643" />
+    <state width="1398" height="300" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1589286609135" />
+    <state width="1878" height="289" key="GridCell.Tab.0.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1586277965507" />
+    <state width="1336" height="229" key="GridCell.Tab.0.center" timestamp="1590702081175">
+      <screen x="0" y="23" width="1378" height="877" />
+    </state>
+    <state width="1878" height="289" key="GridCell.Tab.0.center/-1920.23.1920.1057/0.23.1920.1057@-1920.23.1920.1057" timestamp="1586531218105" />
+    <state width="1878" height="357" key="GridCell.Tab.0.center/-1920.23.1920.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1586504920060" />
+    <state width="1878" height="357" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1588948236605" />
+    <state width="1336" height="229" key="GridCell.Tab.0.center/0.23.1378.877@0.23.1378.877" timestamp="1590702081175" />
+    <state width="1398" height="207" key="GridCell.Tab.0.center/0.23.1440.806@0.23.1440.806" timestamp="1584861968643" />
+    <state width="1398" height="300" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1589286609134" />
+    <state width="1878" height="289" key="GridCell.Tab.0.center/0.23.1920.1057@0.23.1920.1057" timestamp="1586277965507" />
+    <state width="1336" height="229" key="GridCell.Tab.0.left" timestamp="1590702081175">
+      <screen x="0" y="23" width="1378" height="877" />
+    </state>
+    <state width="1878" height="289" key="GridCell.Tab.0.left/-1920.23.1920.1057/0.23.1920.1057@-1920.23.1920.1057" timestamp="1586531218105" />
+    <state width="1878" height="357" key="GridCell.Tab.0.left/-1920.23.1920.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1586504920059" />
+    <state width="1878" height="357" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1588948236605" />
+    <state width="1336" height="229" key="GridCell.Tab.0.left/0.23.1378.877@0.23.1378.877" timestamp="1590702081175" />
+    <state width="1398" height="207" key="GridCell.Tab.0.left/0.23.1440.806@0.23.1440.806" timestamp="1584861968643" />
+    <state width="1398" height="300" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1589286609134" />
+    <state width="1878" height="289" key="GridCell.Tab.0.left/0.23.1920.1057@0.23.1920.1057" timestamp="1586277965506" />
+    <state width="1336" height="229" key="GridCell.Tab.0.right" timestamp="1590702081175">
+      <screen x="0" y="23" width="1378" height="877" />
+    </state>
+    <state width="1878" height="289" key="GridCell.Tab.0.right/-1920.23.1920.1057/0.23.1920.1057@-1920.23.1920.1057" timestamp="1586531218106" />
+    <state width="1878" height="357" key="GridCell.Tab.0.right/-1920.23.1920.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1586504920060" />
+    <state width="1878" height="357" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1588948236606" />
+    <state width="1336" height="229" key="GridCell.Tab.0.right/0.23.1378.877@0.23.1378.877" timestamp="1590702081175" />
+    <state width="1398" height="207" key="GridCell.Tab.0.right/0.23.1440.806@0.23.1440.806" timestamp="1584861968643" />
+    <state width="1398" height="300" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1589286609135" />
+    <state width="1878" height="289" key="GridCell.Tab.0.right/0.23.1920.1057@0.23.1920.1057" timestamp="1586277965507" />
+    <state width="1398" height="300" key="GridCell.Tab.1.bottom" timestamp="1589286609136">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1878" height="357" key="GridCell.Tab.1.bottom/-1920.23.1920.1057/0.23.1920.1057@-1920.23.1920.1057" timestamp="1586529365061" />
+    <state width="1878" height="357" key="GridCell.Tab.1.bottom/-1920.23.1920.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1586504920062" />
+    <state width="1878" height="357" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1588948236609" />
+    <state width="1398" height="300" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1589286609136" />
+    <state width="1878" height="357" key="GridCell.Tab.1.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1586277929960" />
+    <state width="1398" height="300" key="GridCell.Tab.1.center" timestamp="1589286609135">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1878" height="357" key="GridCell.Tab.1.center/-1920.23.1920.1057/0.23.1920.1057@-1920.23.1920.1057" timestamp="1586529365061" />
+    <state width="1878" height="357" key="GridCell.Tab.1.center/-1920.23.1920.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1586504920061" />
+    <state width="1878" height="357" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1588948236608" />
+    <state width="1398" height="300" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1589286609135" />
+    <state width="1878" height="357" key="GridCell.Tab.1.center/0.23.1920.1057@0.23.1920.1057" timestamp="1586277929959" />
+    <state width="1398" height="300" key="GridCell.Tab.1.left" timestamp="1589286609135">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1878" height="357" key="GridCell.Tab.1.left/-1920.23.1920.1057/0.23.1920.1057@-1920.23.1920.1057" timestamp="1586529365060" />
+    <state width="1878" height="357" key="GridCell.Tab.1.left/-1920.23.1920.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1586504920061" />
+    <state width="1878" height="357" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1588948236607" />
+    <state width="1398" height="300" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1589286609135" />
+    <state width="1878" height="357" key="GridCell.Tab.1.left/0.23.1920.1057@0.23.1920.1057" timestamp="1586277929959" />
+    <state width="1398" height="300" key="GridCell.Tab.1.right" timestamp="1589286609136">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1878" height="357" key="GridCell.Tab.1.right/-1920.23.1920.1057/0.23.1920.1057@-1920.23.1920.1057" timestamp="1586529365061" />
+    <state width="1878" height="357" key="GridCell.Tab.1.right/-1920.23.1920.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1586504920062" />
+    <state width="1878" height="357" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1588948236608" />
+    <state width="1398" height="300" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1589286609136" />
+    <state width="1878" height="357" key="GridCell.Tab.1.right/0.23.1920.1057@0.23.1920.1057" timestamp="1586277929959" />
+    <state x="183" y="89" key="SettingsEditor" timestamp="1589031363546">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="183" y="89" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1589031363546" />
+    <state x="532" y="331" key="com.intellij.ide.util.TipDialog" timestamp="1586269625843">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="399" y="258" key="com.intellij.ide.util.TipDialog/0.23.1440.806@0.23.1440.806" timestamp="1584708419193" />
+    <state x="532" y="331" key="com.intellij.ide.util.TipDialog/0.23.1920.1057@0.23.1920.1057" timestamp="1586269625843" />
+    <state x="432" y="327" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1584708572180">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state x="432" y="327" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.23.1440.806@0.23.1440.806" timestamp="1584708572180" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/recursion1/Solution.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/recursion1/Solution.java</url>
+          <line>65</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/recursion1/Solution.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/recursion1/Solution.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/recursion1/reversedlinkedlist/Solution.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/recursion1/searchBST/Solution.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/recursion1/swapnodesinpairs/SolutionTest.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/recursion1/swapnodesinpairs/Solution.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/recursion1/pascaltriangle/Solution.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/recursion1/pascaltriangle/SolutionTest.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/recursion1/climbingstairs/Solution.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/twosums/Solution.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/twosums/Solution.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/addtwonumbers/Solution.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/addtwonumbers/SolutionTest.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/addtwonumbers/SolutionTest.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/longestsubstring/Solution.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="nums[j]" language="JAVA" />
+        <watch expression="nums[i]" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>
