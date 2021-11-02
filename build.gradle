@@ -5,12 +5,18 @@ plugins {
 group 'sandboxy'
 version '1.0-SNAPSHOT'
 
-sourceCompatibility = 1.8
+sourceCompatibility = 13
 
 repositories {
     mavenCentral()
 }
 
+tasks.withType(Test) {
+    useJUnitPlatform()
+}
+
 dependencies {
+    implementation 'junit:junit:4.13.1'
+    implementation 'org.junit.jupiter:junit-jupiter:5.7.0'
     testCompile group: 'junit', name: 'junit', version: '4.12'
 }

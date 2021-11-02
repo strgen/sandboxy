@@ -5,7 +5,7 @@ import java.util.*;
 
 public class Solution {
 
-    private List<GraphNodes> flip = new ArrayList<>();
+    private List<GraphNodes> flip = new LinkedList<>();
     private Set<Node> visited = new HashSet<>();
 
     public void solve(char[][] board) {
@@ -14,16 +14,12 @@ public class Solution {
             for (int y = 1; y < board[0].length - 1; y++) {
                 var node = new Node(x,y);
                 var graph = getNextPoint(node, board, new GraphNodes(new HashSet<>(), false));
-                //visited.add(node);
-                if(!graph.nodes.isEmpty())
+                if(!graph.nodes.isEmpty() && !graph.connectedToBorder) {
                     flip.add(graph);
-            }
-        }
-        for(GraphNodes graphNodes : flip){
-            if(graphNodes.connectedToBorder)
-                continue;
-            for( Node node: graphNodes.nodes ){
-                board[node.x][node.y] = 'X';
+                    for( Node node1: graph.nodes ){
+                        board[node1.x][node1.y] = 'X';
+                    }
+                }
             }
         }
     }
@@ -46,21 +42,16 @@ public class Solution {
                 }
                 var left = new Node(node.x - 1, node.y);
 
-                if (!visited.contains(left)) {
-                    getNextPoint(left, board, graphNodes);
-                }
+                getNextPoint(left, board, graphNodes);
+
                 var right = new Node(node.x + 1, node.y);
-                if (!visited.contains(right)) {
-                    getNextPoint(right, board, graphNodes);
-                }
+                getNextPoint(right, board, graphNodes);
+
                 var down = new Node(node.x, node.y - 1);
-                if (!visited.contains(down)) {
-                    getNextPoint(down, board, graphNodes);
-                }
+                getNextPoint(down, board, graphNodes);
+
                 var up = new Node(node.x, node.y + 1);
-                if (!visited.contains(up)) {
-                    getNextPoint(up, board, graphNodes);
-                }
+                getNextPoint(up, board, graphNodes);
             }
             return graphNodes;
         }
