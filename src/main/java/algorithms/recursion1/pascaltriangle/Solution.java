@@ -21,8 +21,7 @@ public class Solution {
         }
         List<Integer> next = new ArrayList<>();
         next.add(1);
-        for( int i = 0; i < previous.size() - 1; i++ )
-        {
+        for( int i = 0; i < previous.size() - 1; i++ ) {
             next.add(previous.get(i) + previous.get(i + 1));
         }
         next.add(1);
