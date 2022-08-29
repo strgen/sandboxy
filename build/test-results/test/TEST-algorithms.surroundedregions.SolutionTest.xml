@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="algorithms.surroundedregions.SolutionTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-08-29T16:33:10" hostname="gennadii-pc" time="0.011">
-  <properties/>
-  <testcase name="testSolution()" classname="algorithms.surroundedregions.SolutionTest" time="0.009"/>
-  <testcase name="testSolutionThirdCase()" classname="algorithms.surroundedregions.SolutionTest" time="0.001"/>
-  <testcase name="testSolutionSecondCase()" classname="algorithms.surroundedregions.SolutionTest" time="0.0"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
