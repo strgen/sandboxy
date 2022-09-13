@@ -10,13 +10,13 @@ public class Solution {
 
     public void solve(char[][] board) {
 
-        for(int x = 1; x < board.length - 1; x++) {
+        for (int x = 1; x < board.length - 1; x++) {
             for (int y = 1; y < board[0].length - 1; y++) {
-                var node = new Node(x,y);
+                var node = new Node(x, y);
                 var graph = getNextPoint(node, board, new GraphNodes(new HashSet<>(), false));
-                if(!graph.nodes.isEmpty() && !graph.connectedToBorder) {
+                if (!graph.nodes.isEmpty() && !graph.connectedToBorder) {
                     flip.add(graph);
-                    for( Node node1: graph.nodes ){
+                    for (Node node1 : graph.nodes) {
                         board[node1.x][node1.y] = 'X';
                     }
                 }
@@ -24,13 +24,12 @@ public class Solution {
         }
     }
 
-    private GraphNodes getNextPoint(Node node, char[][] board, GraphNodes graphNodes){
+    private GraphNodes getNextPoint(Node node, char[][] board, GraphNodes graphNodes) {
         if (isOutOfBorder(node, board))
             return graphNodes;
-        if(visited.contains(node)) {
+        if (visited.contains(node)) {
             return graphNodes;
-        }
-        else {
+        } else {
             visited.add(node);
 
             if (board[node.x][node.y] == 'O') {
@@ -58,33 +57,33 @@ public class Solution {
     }
 
 
-    private boolean isOutOfBorder(Node node, char[][] board){
-        if(node.x <= 0){
+    private boolean isOutOfBorder(Node node, char[][] board) {
+        if (node.x <= 0) {
             return true;
         }
-        if(node.y <= 0){
+        if (node.y <= 0) {
             return true;
         }
-        if(node.x >= board.length - 1){
+        if (node.x >= board.length - 1) {
             return true;
         }
-        if(node.y >= board[0].length -1){
+        if (node.y >= board[0].length - 1) {
             return true;
         }
         return false;
     }
 
-    private boolean isOnBorder(Node node, char[][] board){
-        if(node.x == board.length){
+    private boolean isOnBorder(Node node, char[][] board) {
+        if (node.x == board.length) {
             return true;
         }
-        if(node.y == board[0].length) {
+        if (node.y == board[0].length) {
             return true;
         }
-        if(node.x == 0){
+        if (node.x == 0) {
             return true;
         }
-        if(node.y == 0){
+        if (node.y == 0) {
             return true;
         }
         return false;
@@ -99,26 +98,26 @@ public class Solution {
              44444
         */
 
-        if(node.x == 1){
-            if(board[node.x - 1][ node.y ] == 'O')
+        if (node.x == 1) {
+            if (board[node.x - 1][node.y] == 'O')
                 return true;
         }
-        if(node.y == 1){
-            if(board[node.x][node.y - 1] == 'O')
+        if (node.y == 1) {
+            if (board[node.x][node.y - 1] == 'O')
                 return true;
         }
-        if(node.x == board.length - 2){
-            if(board[board.length - 1][node.y] == 'O')
+        if (node.x == board.length - 2) {
+            if (board[board.length - 1][node.y] == 'O')
                 return true;
         }
-        if(node.y == board[0].length - 2){
-            if(board[node.x][board[0].length - 1] == 'O')
+        if (node.y == board[0].length - 2) {
+            if (board[node.x][board[0].length - 1] == 'O')
                 return true;
         }
         return false;
     }
 
-    private static class GraphNodes{
+    private static class GraphNodes {
         public Set<Node> nodes;
         public boolean connectedToBorder;
 
@@ -128,7 +127,7 @@ public class Solution {
         }
     }
 
-    private static class Node{
+    private static class Node {
         public int x;
         public int y;
 
@@ -148,7 +147,7 @@ public class Solution {
 
         @Override
         public boolean equals(Object obj) {
-            if(obj == null) return false;
+            if (obj == null) return false;
             if (!(obj instanceof Node)) return false;
             return ((Node) obj).x == this.x && ((Node) obj).y == this.y;
         }

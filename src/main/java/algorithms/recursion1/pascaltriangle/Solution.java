@@ -13,15 +13,15 @@ public class Solution {
     }
 
 
-    public List<Integer> rec(int rowIndex, int curInd, List<Integer> previous){
-        if(rowIndex == 0)
+    public List<Integer> rec(int rowIndex, int curInd, List<Integer> previous) {
+        if (rowIndex == 0)
             return previous;
-        if(rowIndex == curInd){
+        if (rowIndex == curInd) {
             return previous;
         }
         List<Integer> next = new ArrayList<>();
         next.add(1);
-        for( int i = 0; i < previous.size() - 1; i++ ) {
+        for (int i = 0; i < previous.size() - 1; i++) {
             next.add(previous.get(i) + previous.get(i + 1));
         }
         next.add(1);

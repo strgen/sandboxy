@@ -8,11 +8,11 @@ public class Solution {
     }
 
 
-    public ListNode reverse(ListNode head){
-        if(head == null)
+    public ListNode reverse(ListNode head) {
+        if (head == null)
             return head;
 
-        if(head.next == null){
+        if (head.next == null) {
             return head;
         }
         ListNode listNode = reverse(head.next);

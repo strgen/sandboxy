@@ -29,6 +29,5 @@ public class SolutionTest {
     public void testSolution(){
         Solution solution = new Solution();
         System.out.println(solution.lengthOfLongestSubstring("dvdf"));
-        //System.out.println(" ");
     }
 }

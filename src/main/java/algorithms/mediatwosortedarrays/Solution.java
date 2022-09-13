@@ -14,7 +14,7 @@ public class Solution {
         int fP, sP, rP;
         fP = sP = rP = 0;
 
-        while(fP < fL && sP < sL) {
+        while (fP < fL && sP < sL) {
             if (first[fP] < second[sP]) {
                 res[rP++] = first[fP++];
             } else {
@@ -34,14 +34,13 @@ public class Solution {
     }
 
 
-    public double findMedianSortedArrays(int[] nums1, int[] nums2){
+    public double findMedianSortedArrays(int[] nums1, int[] nums2) {
         var arr = merge(nums1, nums2);
-        if(arr.length % 2 != 0) {
+        if (arr.length % 2 != 0) {
             return arr[arr.length / 2];
-        }
-        else {
-            var f = arr[ ( arr.length / 2) - 1 ];
-            var s = arr[ ( arr.length / 2)];
+        } else {
+            var f = arr[(arr.length / 2) - 1];
+            var s = arr[(arr.length / 2)];
             var r = (f + s) / 2d;
             return r;
         }

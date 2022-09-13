@@ -10,7 +10,6 @@ public class SolutionTest {
     public void testSolution(){
 
         String hello = "hannah";
-        //["H","a","n","n","a","h"]
         Solution solution = new Solution();
         solution.reverseString(hello.toCharArray());
 
