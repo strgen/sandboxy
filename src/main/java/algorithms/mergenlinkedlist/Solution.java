@@ -1,7 +1,43 @@
-package algorithms.mergetwosortedlists;
+package algorithms.mergenlinkedlist;
 
-public class Solution {
-    public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
+
+import java.util.ArrayList;
+import java.util.List;
+
+/*
+    1 -> 2 -> 3
+    3 -> 4 -> 5
+    6 -> 7 -> 8
+
+    1,3,6
+
+    2,4,7
+
+    1,2,3,4,6,7
+
+    3,5,9
+*/
+class Solution {
+    public ListNode mergeKLists(ListNode[] lists) {
+        int n = 0;
+        ListNode res = null;
+        if((lists.length - 1) == 0){
+            return lists[0];
+        }
+        for(int i = 0; i < lists.length - 1; i++){
+            var result = mergeTwoLists(lists[i], lists[i + 1]);
+            lists[i + 1] = result;
+
+            if(i == lists.length - 2){
+                res = result;
+                break;
+            }
+        }
+        return res;
+    }
+
+
+    private ListNode mergeTwoLists(ListNode l1, ListNode l2) {
         if (l1 == null && l2 == null)
             return null;
         if (l1 == null && l2 != null)
@@ -40,6 +76,17 @@ public class Solution {
         }
         return begin;
     }
+
+    /*
+         {1, 4, 5}
+         {1, 3, 4}
+         {2, 6}
+
+         {1, 4, 5}
+         {1, 3, 4}
+
+         1 ? 1 = 1,1
+    */
 
     public static class ListNode {
         int val;
