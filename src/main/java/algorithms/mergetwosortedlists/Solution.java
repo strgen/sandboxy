@@ -4,15 +4,15 @@ public class Solution {
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
         if (l1 == null && l2 == null)
             return null;
-        if (l1 == null && l2 != null)
+        if (l1 == null)
             return l2;
-        if (l1 != null && l2 == null)
+        if (l2 == null)
             return l1;
 
         ListNode m = new ListNode();
         ListNode begin = m;
         while (l1 != null || l2 != null) {
-            if(l1 == null && l2 != null){
+            if(l1 == null){
                 ListNode tmp = l2;
                 l2 = l2.next;
                 m.val = tmp.val;
