@@ -36,7 +36,6 @@ public class Solution {
                 }
                 wordCharArray[i] = temp;
             }
-
         }
         return 0;
     }

@@ -2,6 +2,7 @@ package algorithms.mergenlinkedlist;
 
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 /*
@@ -19,46 +20,57 @@ import java.util.List;
 */
 class Solution {
     public ListNode mergeKLists(ListNode[] lists) {
-        int n = 0;
-        ListNode res = null;
-        if((lists.length - 1) == 0){
-            return lists[0];
+        if(lists.length == 0){
+            return new ListNode();
         }
-        for(int i = 0; i < lists.length - 1; i++){
-            var result = mergeTwoLists(lists[i], lists[i + 1]);
-            lists[i + 1] = result;
+        List<ListNode> tempMergedListNodes = Arrays.asList(lists);
+        while (tempMergedListNodes.size() > 1) {
+            tempMergedListNodes = merge(tempMergedListNodes);
+        }
+        if(tempMergedListNodes.isEmpty()){
+            return new ListNode();
+        }
+        return tempMergedListNodes.get(0);
+    }
 
-            if(i == lists.length - 2){
-                res = result;
+    private List<ListNode> merge(List<ListNode> listNodes) {
+        List<ListNode> tempMergedListNodes = new ArrayList<>();
+        for (int i = 0; i <= listNodes.size() - 1; i += 2) {
+            var result = mergeTwoLists(listNodes.get(i), listNodes.get(i + 1));
+            tempMergedListNodes.add(result);
+            if ((i + 3) == listNodes.size()) {
+                var lastOneMerged = tempMergedListNodes.get(tempMergedListNodes.size() - 1);
+                var res1 = mergeTwoLists(listNodes.get(listNodes.size() - 1), lastOneMerged);
+                tempMergedListNodes.remove(tempMergedListNodes.size() - 1);
+                tempMergedListNodes.add(res1);
                 break;
             }
         }
-        return res;
+        return tempMergedListNodes;
     }
-
 
     private ListNode mergeTwoLists(ListNode l1, ListNode l2) {
         if (l1 == null && l2 == null)
             return null;
-        if (l1 == null && l2 != null)
+        if (l1 == null)
             return l2;
-        if (l1 != null && l2 == null)
+        if (l2 == null)
             return l1;
 
         ListNode m = new ListNode();
         ListNode begin = m;
         while (l1 != null || l2 != null) {
-            if(l1 == null && l2 != null){
+            if (l1 == null) {
                 ListNode tmp = l2;
                 l2 = l2.next;
                 m.val = tmp.val;
             }
-            if(l2 == null && l1 != null){
+            if (l2 == null && l1 != null) {
                 ListNode tmp = l1;
                 l1 = l1.next;
                 m.val = tmp.val;
             }
-            if(l1 != null && l2 != null) {
+            if (l1 != null && l2 != null) {
                 if (l1.val < l2.val) {
                     ListNode tmp = l1;
                     l1 = l1.next;
@@ -69,24 +81,13 @@ class Solution {
                     m.val = tmp.val;
                 }
             }
-            if( l1 != null || l2 != null ){
+            if (l1 != null || l2 != null) {
                 m.next = new ListNode();
                 m = m.next;
             }
         }
         return begin;
     }
-
-    /*
-         {1, 4, 5}
-         {1, 3, 4}
-         {2, 6}
-
-         {1, 4, 5}
-         {1, 3, 4}
-
-         1 ? 1 = 1,1
-    */
 
     public static class ListNode {
         int val;

@@ -74,6 +74,14 @@ public class TestSolution {
         assert result != null;
     }
 
+    @Test
+    void testSolution3(){
+        Solution.ListNode[] input = new Solution.ListNode[0];
+        Solution solution = new Solution();
+        var res = solution.mergeKLists(input);
+        assert res != null;
+    }
+
     public int[][] getHugeInput() throws IOException {
         int[][] input = Arrays.stream(
                         Files.readString(
